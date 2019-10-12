@@ -4,6 +4,7 @@ project(V3D)
 
 set (V3D_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 set (V3D_INCLUDE_DIRS ${V3D_DIR}/.)
+set (CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 include (Config/v3d_macros.cmake)
 
